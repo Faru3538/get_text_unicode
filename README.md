@@ -9,7 +9,7 @@ print(matrix_a)
 text = "やりますね"
 for char in text:
     hex_code = f"{hex(ord(char))}.04X"
-    print(f"The Unicode code of {char} is U+" + "{hex_code}")
+    print(f"The Unicode code of {char} is U+" + f"{hex_code}")
 print("end")
 ```
 Let pull `Robin` and `Firefly` and `Ineffa`.
